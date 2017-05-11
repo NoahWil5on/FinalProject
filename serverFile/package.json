@@ -1,0 +1,16 @@
+{
+    "name": "new-project",
+    "version": "1.0.0",
+    "engines":{
+        "node": "7.10.0",
+        "npm": "4.2.0"
+    },
+    "description": "project server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/serverMain.js",
+        "test": "echo \"No Tests\""
+    },
+    "author": "Noah Wilson",
+    "license": "UNLICENSED"
+}

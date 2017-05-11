@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Home Restaurant</title>
+        <meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/drink.js"></script>
+        <script src="js/food.js"></script>
+    </head>
+    <body>
+        <div id="head">
+            <div id="logo">
+                <img src="images/logo.png" alt='image'>
+            </div>
+            <div id="chef">
+                <img src="images/chef.png" alt='image'>
+            </div>
+        </div>
+        <div id="content">
+            <div id="searchDiv">
+                <div id="search">
+                    <div id="searchSection">
+                        <input type="search" id="bar" value="Enter Something Tasty">
+                        <button id="button">GO!</button>
+                    </div>
+                    <div id="settings">
+                        <input id="drink" type="checkbox" value="false">
+                        <p>Drinks?</p>
+                        <div id="options">
+                            <p>Type of Taste</p>
+                            <select id="taste">
+                                <option value="none">-All-</option>
+                                <option value="sweet">sweet</option>
+                                <option value="sour">sour</option>
+                                <option value="berry">berry</option>
+                                <option value="fresh">fresh</option>
+                                <option value="bitter">bitter</option>
+                                <option value="fruity">fruity</option>
+                                <option value="spicy">spicy</option>
+                            </select>
+                            <p>Type of Alcohol</p>
+                            <select id="type">
+                                <option value="none">-All-</option>
+                                <option value="whisky">whisky</option>
+                                <option value="gin">gin</option>
+                                <option value="rum">rum</option>
+                                <option value="brandy">brandy</option>
+                                <option value="vodka">vodka</option>
+                                <option value="tequila">tequila</option>
+                            </select>
+                            <p>Type of Glass</p>
+                            <select id="glass">
+                                <option value="none">-All-</option>
+                                <option value="champagne-glass">champagne glass</option>
+                                <option value="cocktail-glass">cocktail glass</option>
+                                <option value="highball-glass">highball glass</option>
+                                <option value="rock-glass">rock glass</option>
+                                <option value="wine-glass">wine glass</option>
+                                <option value="shot-glass">shot glass</option>
+                            </select>
+                            <p>Time of Day</p>
+                            <select id="occasion">
+                                <option value="none">-All-</option>
+                                <option value="afternoon">afternoon</option>
+                                <option value="evening">evening</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/spice.png" alt='image'>
+            </div>
+            <div id="mainDiv">
+                <div id="main">
+                    <div class="recipe">
+                        <div class="foodDiv">
+                            <div class="name">
+                                <h1>You gonna search for something or what?</h1>
+                            </div>     
+                        </div>
+                        <div style="clear:both"></div>
+                        <div class="between"></div>
+                        <div class="directionsDiv">
+                        </div>
+                        <div class="foot">
+                        </div>
+                        <div class="garnish">
+                            <img src="images/garnish.png" alt='image'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            window.onload = app.main.init;
+        </script>
+    </body>
+</html>
